@@ -1,1 +1,0 @@
-/Users/MerrittRuthrauff/dotfiles/bash_profile
