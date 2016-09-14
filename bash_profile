@@ -1,4 +1,4 @@
-1=' \n [\w]\n $ '
+PS1=' \n [\w]\n $ '
 alias cerb='ssh mruthrauff@Cerberus.westminstercollege.edu -p 2222'
 alias hn='hn --keep-open'
 alias ls='ls -a'
@@ -25,7 +25,7 @@ mcd()
  {
    mkdir -p "$1";
     cd "$1";
-     }
+ }
 
 # cd into a directory and list its contents cls [name]
 
@@ -33,7 +33,7 @@ cls()
  {
    cd "$1";
     ls;
-     } 
+ } 
       
 
 
