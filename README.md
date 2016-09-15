@@ -1,1 +1,2 @@
-#This is mostly meant as a backup if/when I mess up my machine. 
+##Dotfiles 
+This is mostly meant as a backup of my dotfiles and a way to practice git
