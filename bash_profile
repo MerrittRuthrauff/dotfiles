@@ -12,11 +12,13 @@ alias tet='yetris'
 alias gs='git status'
 alias gd='git diff'
 alias ga='git add'
+alias livestreamer='livestreamer -p /Applications/mpv.app/contents/MacOS/mpv'
+alias maze='python ~/Documents/Programming/Unix/maze.py'
 
 #Print a cow saying a fortune every time a new terminal is opened. Kinda neat!
 fortune -s | cowsay 
 
-export CLICOLOR=1
+export CLICOLOR=yes
 export PATH="/usr/local/sbin:$PATH"
 
 # make a directory and cd into it mcd [name]
