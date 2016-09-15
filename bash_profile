@@ -2,7 +2,6 @@
 #  [current directory]
 #  $ command
 
-
 PS1=' \n [\w]\n $ '
 
 ###########################
