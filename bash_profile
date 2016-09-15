@@ -1,4 +1,14 @@
+#Bash prompt, shows up as
+#  [current directory]
+#  $ command
+
+
 PS1=' \n [\w]\n $ '
+
+###########################
+#           Useful        #
+###########################
+
 alias cerb='ssh mruthrauff@Cerberus.westminstercollege.edu -p 2222'
 alias hn='hn --keep-open'
 alias ls='ls -a'
@@ -9,21 +19,31 @@ alias histg="history | grep" # search history with histg[keyword]
 alias busy='cat /dev/urandom | hexdump -C | grep "ca fe"'
 alias ..='cd ..'
 alias tet='yetris'
+
+
+#############################
+#            Git            #
+#############################
+
 alias gs='git status'
 alias gd='git diff'
 alias ga='git add'
+
+###########################
+#            Fun          #
+##########################
 alias livestreamer='livestreamer -p /Applications/mpv.app/contents/MacOS/mpv'
 alias maze='python ~/Documents/Programming/Unix/maze.py'
 
 #Print a cow saying a fortune every time a new terminal is opened. Kinda neat!
-fortune -s | cowsay 
+fortune -s | cowsay
 
 export CLICOLOR=yes
 export PATH="/usr/local/sbin:$PATH"
 
 # make a directory and cd into it mcd [name]
 
-mcd()  
+mcd()
  {
    mkdir -p "$1";
     cd "$1";
@@ -31,11 +51,8 @@ mcd()
 
 # cd into a directory and list its contents cls [name]
 
-cls() 
+cls()
  {
    cd "$1";
     ls;
- } 
-      
-
-
+ }
