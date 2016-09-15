@@ -9,15 +9,13 @@ PS1=' \n [\w]\n $ '
 ###########################
 
 alias cerb='ssh mruthrauff@Cerberus.westminstercollege.edu -p 2222'
-alias hn='hn --keep-open'
 alias ls='ls -a'
 alias ll='ls -la'
 alias cp='cp -v'
 alias mv='mv -v'
 alias histg="history | grep" # search history with histg[keyword]
-alias busy='cat /dev/urandom | hexdump -C | grep "ca fe"'
 alias ..='cd ..'
-alias tet='yetris'
+
 
 
 #############################
@@ -33,6 +31,9 @@ alias ga='git add'
 ##########################
 alias livestreamer='livestreamer -p /Applications/mpv.app/contents/MacOS/mpv'
 alias maze='python ~/Documents/Programming/Unix/maze.py'
+alias tet='yetris' 
+alias busy='cat /dev/urandom | hexdump -C | grep "ca fe"'
+alias hn='hn --keep-open'
 
 #Print a cow saying a fortune every time a new terminal is opened. Kinda neat!
 fortune -s | cowsay
