@@ -10,7 +10,8 @@ brew install brew-cask
 brew tap caskroom/versions
 
 # Install packages
-apps=(
+apps=
+    (
     flux
     imageoptim
     iterm2
@@ -23,7 +24,8 @@ apps=(
     macdown
     spotify
     transmission
-)
+    gimp
+    )   
 
 brew cask install "${apps[@]}"
 
