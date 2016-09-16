@@ -2,21 +2,21 @@
 #  [current directory]
 #  $ command
 
-PS1=' \n [\w]\n $ '
+#Old prompt
+#PS1=' \n [\w]\n $ '
+
+PS1='\n$(tput setaf 1)┌[$(tput sgr0)\u:$(tput setaf 1):\W\n└┤\[$(tput sgr0)\][\A] ➜  \[$(tput sgr0)\]'
 
 ###########################
 #           Useful        #
 ###########################
 
-alias cerb='ssh mruthrauff@Cerberus.westminstercollege.edu -p 2222'
 alias ls='ls -a'
 alias ll='ls -la'
 alias cp='cp -v'
 alias mv='mv -v'
 alias histg="history | grep" # search history with histg[keyword]
 alias ..='cd ..'
-
-
 
 #############################
 #            Git            #
@@ -30,10 +30,11 @@ alias ga='git add'
 #            Fun          #
 ##########################
 alias livestreamer='livestreamer -p /Applications/mpv.app/contents/MacOS/mpv'
-alias maze='python ~/Documents/Programming/Unix/maze.py'
+alias maze='python ~/Documents/Programming/Nix/maze.py'
 alias tet='yetris' 
 alias busy='cat /dev/urandom | hexdump -C | grep "ca fe"'
 alias hn='hn --keep-open'
+alias vtop='vtop --theme wizard'
 
 #Print a cow saying a fortune every time a new terminal is opened. Kinda neat!
 fortune -s | cowsay
