@@ -88,8 +88,9 @@ set smarttab              " use tabs at the start of a line, spaces elsewhere
 set nowrap                " don't wrap text
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" 06. Custom Commands                                                        "
+" 06. Custom Commands and plugins                                            "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Prettify JSON files making them easier to read
 command PrettyJSON %!python -m json.tool
+execute pathogen#infect()
