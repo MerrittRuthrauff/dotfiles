@@ -36,8 +36,8 @@ alias busy='cat /dev/urandom | hexdump -C | grep "ca fe"'
 alias hn='hn --keep-open'
 alias vtop='vtop --theme wizard'
 
-#Print a cow saying a fortune every time a new terminal is opened. Kinda neat!
-fortune -s | cowsay
+#Print a moose saying a short fortune every time a new terminal window is opened. Kinda neat!
+fortune -s | cowsay -f moose
 
 export CLICOLOR=yes
 export PATH="/usr/local/sbin:$PATH"
