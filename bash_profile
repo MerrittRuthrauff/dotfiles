@@ -17,6 +17,7 @@ alias cp='cp -v'
 alias mv='mv -v'
 alias histg="history | grep" # search history with histg[keyword]
 alias ..='cd ..'
+alias buc='brew update && brew upgrade && brew cleanup'
 
 #############################
 #            Git            #
