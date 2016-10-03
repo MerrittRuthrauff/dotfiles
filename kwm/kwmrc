@@ -157,8 +157,8 @@ kwmc bindsym cmd+ctrl-a space -t bsp
 
 // Set Space Tiling Mode To Monocle
 kwmc bindsym cmd+ctrl-s space -t monocle
-
-// Set Space Tiling Mode To Floating
+]]]]
+// S]et Space Tiling Mode To Floating
 kwmc bindsym cmd+ctrl-d space -t float
 
 // Rotate Window-Tree By 90degrees (Clockwise)
