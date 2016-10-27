@@ -38,6 +38,7 @@ set t_Co=256              " enable 256-color mode.
 syntax enable             " enable syntax highlighting (previously syntax on).
 colorscheme monochrome
 
+
 " Prettify JSON files
 "autocmd BufRead,BufNewFile *.json set filetype=json
 "autocmd Syntax json sou ~/.vim/syntax/json.vim
