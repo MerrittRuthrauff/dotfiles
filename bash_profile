@@ -57,3 +57,5 @@ cls()
    cd "$1";
     ls;
  }
+
+ PATH=$PATH:$HOME/anaconda/bin
