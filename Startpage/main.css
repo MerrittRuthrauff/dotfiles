@@ -1,0 +1,88 @@
+html, body, h1, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+		background: black;
+    background-image: url('~/Documents/Wallpapers/PlainBlack.png');
+    background-size: cover;
+    overflow: hidden;
+    color: rgb(185,185 ,185 );
+  }
+void {
+	color: rgb(185,185 ,185 );
+}
+#net {
+		/* background-image: url('bg/net1.png'); */
+		margin: 0;
+		padding: 0;
+		height: 100vh;
+		width: 100vw;
+		overflow: hidden;
+    color: rgb(185,185 ,185 );
+}
+ul, ul li {
+    display: block;
+    list-style: none;
+		color: rgb(185, 185, 185);
+
+}
+ul li {
+    display: inline;
+    white-space: nowrap;
+}
+a {
+		color: rgb(185,185 ,185 );
+    text-decoration: none;
+}
+a:hover {
+		color:  #7c7c7c;
+    transition: .1s;
+}
+main {
+		border: solid black .4em;
+		background-image: url('bg/net0.png');
+    font-family: 'PragmataPro for Powerline', sans-serif;
+    font-size: 1.4em;
+    line-height: 1.1em;
+    width: 40vw;
+    height: auto;
+    padding: 1.2em;
+    display: block;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 70.6em) {
+    main {
+        width: 19em;
+    }
+}
+@media only screen and (max-width: 30em) {
+    main {
+        width: 100%;
+    }
+}
+.searchfield {
+		background: white;
+		color: black;
+    border: none;
+    display: block;
+    font-family: 'PragmataPro for Powerline', sans-serif;
+    font-size: 1.1em;
+    height: 1.28em;
+    margin: auto;
+    margin-bottom: 1em;
+    padding: .4em 0 .4em 2%;
+    width: 98%;
+}
+
+@font-face {
+    font-family: "PragmataPro for Powerline";
+    src: url('PragmataPro For Powerline.ttf'),
+  }

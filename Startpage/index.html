@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>$</title>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:700' rel='stylesheet' type='text/css'> -->
+	<!--
+	Uncomment if you want to use Ubuntu font instead of Input Mono
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'> 
+
+	-->
+	<link rel="stylesheet" href="main.css" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-language" content="pl" />
+</head>
+
+<body>
+	<div id="net"><main>
+		<!-- searchbar -->
+		<input type="text" class="searchfield" autofocus placeholder="Search" />
+		<!-- google -->
+		<ul>
+			<li><void>GOOGLE</void> [ </li>
+			<li><a href="https://mail.google.com/mail/u/0/#inbox">Mail </a> / </li>
+			<li><a href="https://drive.google.com/drive/my-drive">Drive </a> / </li>
+			<li><a href="https://photos.google.com">Photos </a> / </li>
+      <li><a href="https://calendar.google.com/calendar/render#main_7%7Cmonth">Calendar </a> ]  </li>
+		</ul>
+		<br/>
+		<!-- social -->
+		<ul>
+			<li><void>SOCIAL</void> [ </li>
+			<li><a href="https://www.facebook.com/">Facebook /</a>  </li>
+			<li><a href="https://www.twitch.tv/">Twitch /</a>  </li>
+			<li><a href="https://twitter.com">Twitter ]</a> </li>
+
+		</ul>
+		<br/>
+		<!-- media -->
+		<ul>
+			<li><void>MEDIA</void> [ </li>
+			<li><a href="https://www.youtube.com/">Youtube</a> / </li>
+			<li><a href="https://soundcloud.com/stream">Soundcloud</a> / </li>
+			<li><a href="https://netflix.com/">Netflix</a> ] </li>
+		</ul>
+		<br/>
+		<!-- stuff -->
+		<ul>
+			<li><void>TECH</void> [ </li>
+			<li><a href="https://news.ycombinator.com">HN</a> / </li>
+			<li><a href="https://www.arstechnica.com">Ars</a> / </li>
+			<li><a href="https://wiki.installgentoo.com">Installgentoo</a> / </li>
+      <li><a href="https://github.com">Github</a> ] </li>
+		</ul>
+		<br/>
+	</main></div>
+	<script>
+		document.getElementsByClassName('searchfield')[0].onkeypress = function(e) {
+			if (!e) e = window.event;
+			var keyCode = e.keyCode || e.which;
+			if (keyCode == '13') {
+				window.location.href = "https://www.google.com/?gws_rd=ssl#q=" + document.getElementsByClassName('searchfield')[0].value;
+			}
+		};
+	</script>
+</body>
+
+</html>
