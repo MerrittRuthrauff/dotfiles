@@ -1,4 +1,2 @@
-##Dotfiles 
-This is mostly meant as a backup of my dotfiles and a way to practice git
-
-Based off of https://github.com/koekeishiya/dotfiles 
+# newtab
+<a href="http://mightyjelen.github.io/newtab">new tab</a>
