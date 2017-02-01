@@ -1,0 +1,1 @@
+Startpage for Firefox or other browsers. Google search functionality and organization of my favorite links.
